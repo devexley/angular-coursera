@@ -1,2 +1,2 @@
 # coursera_angular
-AngularJS coursera class
+AngularJS Coursera course
