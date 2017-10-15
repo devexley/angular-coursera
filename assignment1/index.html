@@ -16,7 +16,7 @@
      <h1>Lunch Checker</h1>
 
          <div class="form-group">
-             <input id="lunch-menu" type="text"
+             <input id="lunch-menu" type="text" ng-style="setBorder" 
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-model="lunchList">
           <p class="warning">Empty items are excluded and not considred as a lunch item.</p>
@@ -26,7 +26,7 @@
          <div class="form-group, btn-field">
              <button class="btn btn-default" ng-click="lunchCheck()">Check If Too Much</button>
          </div>
-         <div class="form-group message">
+         <div class="form-group message" ng-style="setColor">
            <!-- Your message can go here. -->
            {{ lunchMessage }}
          </div>
