@@ -16,7 +16,7 @@
      <h1>Lunch Checker</h1>
 
          <div class="form-group">
-             <input id="lunch-menu" type="text" ng-style="setBorder" 
+             <input id="lunch-menu" type="text" ng-style="setBorder" ng-focus="reset()" ng-blur="reset()"
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-model="lunchList">
           <p class="warning">Empty items are excluded and not considred as a lunch item.</p>

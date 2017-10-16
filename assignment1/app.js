@@ -46,6 +46,14 @@ $scope.lunchCheck = function () {
 
 };
 
+$scope.reset = function() {
+	
+	$scope.setColor = {};
+	$scope.setBorder =  {};
+	$scope.lunchMessage = "";
+
+};
+
 };
 
 
